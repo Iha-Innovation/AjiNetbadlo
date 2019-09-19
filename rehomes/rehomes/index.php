@@ -77,52 +77,14 @@ include("header.html");
                                         <option value="06">06</option>
                                     </select>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-3">
-                                    <select name="bedrooms" id="bedrooms" class="form-control">
-                                        <option value="bedrooms">Bedrooms</option>
-                                        <option value="01">01</option>
-                                        <option value="02">02</option>
-                                        <option value="03">03</option>
-                                        <option value="04">04</option>
-                                        <option value="05">05</option>
-                                        <option value="06">06</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3">
-                                    <select name="bathroom" id="bathroom" class="form-control">
-                                        <option value="Bathroom">Bathroom</option>
-                                        <option value="01">01</option>
-                                        <option value="02">02</option>
-                                        <option value="03">03</option>
-                                        <option value="04">04</option>
-                                        <option value="05">05</option>
-                                        <option value="06">06</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3">
-                                    <div class="slider-range mb-15">
-                                        <div class="range-price text-white">Price [30000 - 150000]$</div>
-                                        <div class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-min="0" data-max="200000" data-unit="$" data-value-min="30000" data-value-max="150000" data-label-result="Price">
-                                            <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
-                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
-                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3">
-                                    <div class="slider-range mb-15">
-                                        <div class="range-size text-white">Size [9762 - 72063]sqFt</div>
-                                        <div data-min="0" data-max="98623" data-unit="sqFt" class="slider-range-size ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="9762" data-value-max="72063" data-label-result="Size">
-                                            <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
-                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
-                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
-                                        </div>
-                                    </div>
-                                </div>
+                              
+                               
+                               
+                                
                             </div>
                         </div>
                         <div class="col-12 col-lg-2">
-                            <button type="submit" class="btn rehomes-search-btn">Search</button>
+                            <button type="submit" style="height: 47px; line-height: 49px;" class="btn rehomes-search-btn">Search</button>
                         </div>
                     </div>
                 </form>
@@ -665,8 +627,8 @@ include("header.html");
                             <!-- Contact Area -->
                             <div class="footer-contact">
                                 <p>Phone: <span>(12) 345 6789</span></p>
-                                <p>Email: <span>colorlib.info@gmail.com</span></p>
-                                <p>Address: <span>Iris Watson, Box 283 8562 Fusce Rd, NY</span></p>
+                                <p>Email: <span>contact@ihainnovation.com</span></p>
+                            
                             </div>
                         </div>
                     </div>
@@ -717,7 +679,7 @@ include("header.html");
                     <div class="col-12 col-sm-6">
                         <div class="copywrite-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <a href="https://ihainnovation.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>
