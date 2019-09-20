@@ -3,8 +3,18 @@ include("header.html");
 ?>
 
   
-
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+<style>
+  .text1
+  {
+    font-family:'Montserrat light';
+  } 
+  .text2
+  {
+    font-family:'Playlist Script';
+    font-size: 71px;
+  }
+</style>
+    <div class="site-blocks-cover overlay" style="background-image: url(images/barn-beatiful-landscape-bird-s-eye-view-2832075.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -13,40 +23,45 @@ include("header.html");
             
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
-                <h1 class="" data-aos="fade-up">Échanger votre maison n'as jamais été aussi simple. </h1>
-                <p data-aos="fade-up" data-aos-delay="100">You can buy, sell anything you want.</p>
+                <h1 class="" data-aos="fade-up"><div class="text1">Échanger votre maison n'as jamais été</div><div class="text2"> aussi simple...</div> </h1>
               </div>
             </div>
 
             <div class="form-search-wrap" data-aos="fade-up" data-aos-delay="200">
               <form method="post">
                 <div class="row align-items-center">
-                  <div class="col-lg-12 mb-4 mb-xl-0 col-xl-4">
-                    <input type="text" class="form-control rounded" placeholder="What are you looking for?">
+                  <div class="col-lg-10 mb-4 mb-xl-0 col-xl-4">
+                    <select name="types" id="types" class="form-control">
+                      <option value="all-types" selected>---Type---</option>
+                      <option value="commercial">Commercial</option>
+                      <option value="office">Office</option>
+                      <option value="villa">Villa</option>
+                      <option value="apartment">Apartment</option>
+                      <option value="condominium">Condominium</option>
+                    </select>
                   </div>
-                  <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
-                    <div class="wrap-icon">
-                      <span class="icon icon-room"></span>
-                      <input type="text" class="form-control rounded" placeholder="Location">
-                    </div>
-                    
+                  <div class="col-lg-10 mb-4 mb-xl-0 col-xl-3">
+                    <select name="location" id="location" class="form-control">
+                      <option value="location" selected>---Pays---</option>
+                      <option value="armenia">Armenia</option>
+                      <option value="argentina">Argentina</option>
+                      <option value="australia">Australia</option>
+                      <option value="belgium">Belgium</option>
+                      <option value="botswana">Botswana</option>
+                    </select>
                   </div>
-                  <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
-                    <div class="select-wrap">
-                      <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                      <select class="form-control rounded" name="" id="">
-                        <option value="">All Categories</option>
-                        <option value="">Real Estate</option>
-                        <option value="">Books &amp;  Magazines</option>
-                        <option value="">Furniture</option>
-                        <option value="">Electronics</option>
-                        <option value="">Cars &amp; Vehicles</option>
-                        <option value="">Others</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-xl-2 ml-auto text-right">
-                    <input type="submit" class="btn btn-primary btn-block rounded" value="Search">
+                  <div class="col-lg-10 mb-4 mb-xl-0 col-xl-3">
+                    <select name="location" id="location" class="form-control">
+                      <option value="location" selected>---Ville---</option>
+                      <option value="armenia">Armenia</option>
+                      <option value="argentina">Argentina</option>
+                      <option value="australia">Australia</option>
+                      <option value="belgium">Belgium</option>
+                      <option value="botswana">Botswana</option>
+                    </select>
+                  </div>               
+                  <div class="col-lg-10 col-xl-2 ml-auto text-right">
+                    <input type="submit" class="btn btn-primary btn-block rounded" value="Rechercher">
                   </div>
                   
                 </div>
@@ -63,54 +78,23 @@ include("header.html");
         
         <div class="overlap-category mb-5">
           <div class="row align-items-stretch no-gutters">
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-house"></span></span>
-                <span class="caption mb-2 d-block">Real Estate</span>
-                <span class="number">3,921</span>
-              </a>
+            <div class="col-sm-10 col-md-6 mb-6 mb-lg-0 col-lg-2">
+            Profitez de vacances différentes en échangeant votre maison avec des personnes d'autres ville. Visitez de nouvelles villes de manière économique.
+Ou 
+Votre logement est loin du boulot ? Echanger votre maison et optez pour la proximité
             </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-books"></span></span>
-                <span class="caption mb-2 d-block">Books &amp; Magazines</span>
-                <span class="number">398</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-bunk-bed"></span></span>
-                <span class="caption mb-2 d-block">Furniture</span>
-                <span class="number">1,229</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-innovation"></span></span>
-                <span class="caption mb-2 d-block">Electronics</span>
-                <span class="number">32,891</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-car"></span></span>
-                <span class="caption mb-2 d-block">Cars &amp; Vehicles</span>
-                <span class="number">29,221</span>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-              <a href="#" class="popular-category h-100">
-                <span class="icon"><span class="flaticon-pizza"></span></span>
-                <span class="caption mb-2 d-block">Other</span>
-                <span class="number">219</span>
-              </a>
-            </div>
+         
+           
+           
+           
+          
+            
           </div>
         </div>
         
         <div class="row">
           <div class="col-12">
-            <h2 class="h5 mb-4 text-black">Featured Ads</h2>
+            <h2 class="h5 mb-4 text-black">Nouveauté</h2>
           </div>
         </div>
         <div class="row">
@@ -118,11 +102,11 @@ include("header.html");
             <div class="owl-carousel nonloop-block-13">
               
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Cars &amp; Vehicles</span>
+                  <span class="category">Villa</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">Red Luxury Car</a></h3>
+                  <h3><a href="listings-single.html">Villa</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -136,11 +120,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Real Estate</span>
+                  <span class="category">Commercial</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">House with Swimming Pool</a></h3>
+                  <h3><a href="listings-single.html">Commercial</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -154,11 +138,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Furniture</span>
+                  <span class="category">Appartement</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
+                  <h3><a href="listings-single.html">Appartement</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -172,11 +156,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Electronics</span>
+                  <span class="category">Condominium</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">iPhone X gray</a></h3>
+                  <h3><a href="listings-single.html">Condominium</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -190,11 +174,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Cars &amp; Vehicles</span>
+                  <span class="category">Villa</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">Red Luxury Car</a></h3>
+                  <h3><a href="listings-single.html">Villa</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -208,11 +192,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Real Estate</span>
+                  <span class="category">Commercial</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">House with Swimming Pool</a></h3>
+                  <h3><a href="listings-single.html">Commercial</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -226,11 +210,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Furniture</span>
+                  <span class="category">Appartement</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
+                  <h3><a href="listings-single.html">Appartement</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -244,11 +228,11 @@ include("header.html");
               </div>
 
               <div class="d-block d-md-flex listing vertical">
-                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
+                <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpeg')"></a>
                 <div class="lh-content">
-                  <span class="category">Electronics</span>
+                  <span class="category">Condominium</span>
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                  <h3><a href="listings-single.html">iPhone X gray</a></h3>
+                  <h3><a href="listings-single.html">Condominium</a></h3>
                   <address>Don St, Brooklyn, New York</address>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
@@ -273,8 +257,8 @@ include("header.html");
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-primary">
-            <h2 class="font-weight-light text-primary">Popular Products</h2>
-            <p class="color-black-opacity-5">Lorem Ipsum Dolor Sit Amet</p>
+            <h2 class="font-weight-light text-primary">Catégorie</h2>
+           
           </div>
         </div>
 
@@ -283,13 +267,11 @@ include("header.html");
             
             <div class="listing-item">
               <div class="listing-image">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+                <img src="images/3.jpg" alt="Image" class="img-fluid">
               </div>
               <div class="listing-item-content">
-                <a href="#" class="bookmark" data-toggle="tooltip" data-placement="left" title="Bookmark"><span class="icon-heart"></span></a>
-                <a class="px-3 mb-3 category" href="#">Car &amp; Vehicles</a>
-                <h2 class="mb-1"><a href="#">Red Luxury Car</a></h2>
-                <span class="address">West Orange, New York</span>
+                <a class="px-3 mb-3 category" href="#">Condominium</a>
+               
               </div>
             </div>
 
@@ -298,13 +280,11 @@ include("header.html");
             
             <div class="listing-item">
               <div class="listing-image">
-                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+                <img src="images/1.jpg" alt="Image" class="img-fluid">
               </div>
               <div class="listing-item-content">
-                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                <a class="px-3 mb-3 category" href="#">Real Estate</a>
-                <h2 class="mb-1"><a href="#">House with Swimming Pool</a></h2>
-                <span class="address">West Orange, New York</span>
+                <a class="px-3 mb-3 category" href="#">Maison</a>
+              
               </div>
             </div>
 
@@ -313,13 +293,11 @@ include("header.html");
             
             <div class="listing-item">
               <div class="listing-image">
-                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+                <img src="images/2.jpg" alt="Image" class="img-fluid">
               </div>
               <div class="listing-item-content">
-                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                <a class="px-3 mb-3 category" href="#">Furniture</a>
-                <h2 class="mb-1"><a href="#">Wooden Chair &amp; Table</a></h2>
-                <span class="address">West Orange, New York</span>
+                <a class="px-3 mb-3 category" href="#">Villa</a>
+              
               </div>
             </div>
 
@@ -329,13 +307,10 @@ include("header.html");
             
             <div class="listing-item">
               <div class="listing-image">
-                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+                <img src="images/65.jpg" alt="Image" class="img-fluid">
               </div>
               <div class="listing-item-content">
-                <a href="#" class="bookmark" data-toggle="tooltip" data-placement="left" title="Bookmark"><span class="icon-heart"></span></a>
-                <a class="px-3 mb-3 category" href="#">Electronics</a>
-                <h2 class="mb-1"><a href="#">iPhone X gray</a></h2>
-                <span class="address">West Orange, New York</span>
+                <a class="px-3 mb-3 category" href="#">Bureau</a>
               </div>
             </div>
 
@@ -344,13 +319,10 @@ include("header.html");
             
             <div class="listing-item">
               <div class="listing-image">
-                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+                <img src="images/67.jpg" alt="Image" class="img-fluid">
               </div>
               <div class="listing-item-content">
-                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                <a class="px-3 mb-3 category" href="#">Real Estate</a>
-                <h2 class="mb-1"><a href="#">House with Swimming Pool</a></h2>
-                <span class="address">West Orange, New York</span>
+                <a class="px-3 mb-3 category" href="#">Commercial</a>
               </div>
             </div>
 
@@ -366,7 +338,7 @@ include("header.html");
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-7 text-left border-primary">
-            <h2 class="font-weight-light text-primary">Trending Today</h2>
+            <h2 class="font-weight-light text-primary">Catégorie</h2>
           </div>
         </div>
         <div class="row mt-5">
