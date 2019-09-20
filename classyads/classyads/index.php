@@ -13,6 +13,12 @@ include("header.html");
     font-family:'Playlist Script';
     font-size: 71px;
   }
+  .about{
+    padding: 50px;
+    text-align: center;
+    font-family: league spartan;
+    font-size: 17px;
+  }
 </style>
     <div class="site-blocks-cover overlay" style="background-image: url(images/barn-beatiful-landscape-bird-s-eye-view-2832075.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
@@ -78,9 +84,9 @@ include("header.html");
         
         <div class="overlap-category mb-5">
           <div class="row align-items-stretch no-gutters">
-            <div class="col-sm-10 col-md-6 mb-6 mb-lg-0 col-lg-2">
-            Profitez de vacances différentes en échangeant votre maison avec des personnes d'autres ville. Visitez de nouvelles villes de manière économique.
-Ou 
+            <div class="about">
+            Profitez de vacances différentes en échangeant votre maison avec des personnes d'autres ville. Visitez de nouvelles villes de manière économique.<br>
+Ou <br>
 Votre logement est loin du boulot ? Echanger votre maison et optez pour la proximité
             </div>
          
@@ -108,6 +114,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Villa</a></h3>
                   <address>Don St, Brooklyn, New York</address>
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -126,6 +137,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Commercial</a></h3>
                   <address>Don St, Brooklyn, New York</address>
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -144,6 +160,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Appartement</a></h3>
                   <address>Don St, Brooklyn, New York</address>
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -162,7 +183,12 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Condominium</a></h3>
                   <address>Don St, Brooklyn, New York</address>
-                  <p class="mb-0">
+                  
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div><p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -180,7 +206,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Villa</a></h3>
                   <address>Don St, Brooklyn, New York</address>
-                  <p class="mb-0">
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div><p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -198,6 +228,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Commercial</a></h3>
                   <address>Don St, Brooklyn, New York</address>
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -216,6 +251,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Appartement</a></h3>
                   <address>Don St, Brooklyn, New York</address>
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -234,6 +274,11 @@ Votre logement est loin du boulot ? Echanger votre maison et optez pour la proxi
                   <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                   <h3><a href="listings-single.html">Condominium</a></h3>
                   <address>Don St, Brooklyn, New York</address>
+                  <div class="property-info-area d-flex flex-wrap">
+                    <p>Sqft: <span>1420 m2</span></p>
+                    <p>N° lits double: <span>2</span></p>
+                    <p>N° lits simple: <span>05</span></p>      
+                  </div>
                   <p class="mb-0">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>

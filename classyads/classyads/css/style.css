@@ -1,4 +1,20 @@
 /* Base */
+ .property-info-area {
+  padding-top: 20px;
+  font-size: 13px;
+}
+.property-info-area p {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  width: 50%;
+  margin-bottom: 10px;
+  color: #afb4bf;
+}
+ .property-info-area p span {
+  color: #2a303b;
+}
 body {
   line-height: 1.7;
   color: #4d4d4d;
