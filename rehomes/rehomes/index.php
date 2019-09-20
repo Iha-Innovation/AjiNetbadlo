@@ -37,39 +37,30 @@ include("header.html");
                     <div class="row">
                         <div class="col-12 col-lg-10">
                             <div class="row">
-                                <div class="col-12 col-md-6 col-lg-3">
-                                    <select name="location" id="location" class="form-control">
-                                        <option value="location">Location</option>
-                                        <option value="armenia">Armenia</option>
-                                        <option value="argentina">Argentina</option>
-                                        <option value="australia">Australia</option>
-                                        <option value="belgium">Belgium</option>
-                                        <option value="botswana">Botswana</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3">
+                             
+                                <div class="col-12 col-md-6 col-lg-3" style="max-width: 33%;flex: 0 0 33%;">
                                     <select name="types" id="types" class="form-control">
-                                        <option value="all-types">All Types</option>
+                                        <option value="all-types">Tous les types</option>
                                         <option value="commercial">Commercial</option>
-                                        <option value="office">Office</option>
+                                        
                                         <option value="villa">Villa</option>
-                                        <option value="apartment">Apartment</option>
+                                        <option value="apartment">Appartement</option>
                                         <option value="condominium">Condominium</option>
                                     </select>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-3">
+                                <div class="col-12 col-md-6 col-lg-3" style="max-width: 33%;flex: 0 0 33%;"> 
                                     <select name="city" id="city" class="form-control">
-                                        <option value="01">All City</option>
-                                        <option value="02">London</option>
-                                        <option value="03">Dhaka</option>
-                                        <option value="04">Singapore</option>
-                                        <option value="05">Comilla</option>
-                                        <option value="06">Delhi</option>
+                                        <option value="01">Toutes les villes</option>
+                                        <option value="02">Casablanca</option>
+                                        <option value="03">Settat</option>
+                                        <option value="04">El jadida</option>
+                                        <option value="05">Safi</option>
+                                        <option value="06">Marrakesh</option>
                                     </select>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-3">
+                                <div class="col-12 col-md-6 col-lg-3" style="max-width: 33%;flex: 0 0 33%;">
                                     <select name="all" id="all" class="form-control">
-                                        <option value="01">For All</option>
+                                        <option value="01">Pour tous</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
                                         <option value="04">04</option>
@@ -84,7 +75,7 @@ include("header.html");
                             </div>
                         </div>
                         <div class="col-12 col-lg-2">
-                            <button type="submit" style="height: 47px; line-height: 49px;" class="btn rehomes-search-btn">Search</button>
+                            <button type="submit" style="height: 47px; line-height: 49px;" class="btn rehomes-search-btn">Rechercher</button>
                         </div>
                     </div>
                 </form>
@@ -99,8 +90,8 @@ include("header.html");
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="200ms">
-                        <h2>Top New In <span>Casablanca</span></h2>
-                        <p>These are the best deals and deals. All in Casablanca City </p>
+                        <h2>Top Nouveau</h2>
+                        <p>Ce sont les meilleures offres et les meilleures affaires.  </p>
                     </div>
                 </div>
 
@@ -368,8 +359,8 @@ include("header.html");
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="200ms">
-                        <h2>Categories By <span>Property</span></h2>
-                        <p>We have over 8 years of experience and knowledge on how to sell more.</p>
+                        <h2>Catégories </h2>
+                        
                     </div>
                 </div>
 
@@ -457,87 +448,63 @@ include("header.html");
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="200ms">
-                        <h2>Latest <span>News</span></h2>
-                        <p>Sign up for the latest real estate information and more.</p>
+                        <h2> FAQ</h2>
+                     
                     </div>
                 </div>
+                <div class="site-section">
+      
 
-                <!-- Single blog content -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Post Thumb -->
-                        <div class="post-thumb">
-                            <img src="img/bg-img/14.jpg" alt="">
-                        </div>
-                        <a class="post-title" href="#">Benjamin Franklin S Method Of Habit Formation</a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a class="post-author" href="#">By Polly Williams</a>
-                            <a class="post-date" href="#">Dec 19, 2018</a>
-                            <a class="post-comment" href="#">3 Comment</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="row justify-content-center"style="    width: 1222px;">
+          <div class="col-8">
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1" class="accordion-item h5 d-block mb-0">How to list my item?</a>
 
-                <!-- Single blog content -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Post Thumb -->
-                        <div class="post-thumb">
-                            <img src="img/bg-img/15.jpg" alt="">
-                        </div>
-                        <a class="post-title" href="#">How To Set Intentions That Energize You</a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a class="post-author" href="#">By Mattie Ramirez </a>
-                            <a class="post-date" href="#">Dec 19, 2018</a>
-                            <a class="post-comment" href="#">3 Comment</a>
-                        </div>
-                    </div>
+              <div class="collapse" id="collapse-1">
+                <div class="pt-2">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti esse voluptates deleniti, ratione, suscipit quam cumque beatae, enim mollitia voluptatum velit excepturi possimus odio dolore molestiae officiis aspernatur provident praesentium.</p>
                 </div>
+              </div>
+            </div>
 
-                <!-- Single blog content -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Post Thumb -->
-                        <div class="post-thumb">
-                            <img src="img/bg-img/16.jpg" alt="">
-                        </div>
-                        <a class="post-title" href="#">Burning Desire Golden Key Or Red Herring</a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a class="post-author" href="#">By Nicholas Brewer</a>
-                            <a class="post-date" href="#">Dec 19, 2018</a>
-                            <a class="post-comment" href="#">3 Comment</a>
-                        </div>
-                    </div>
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapse-4" class="accordion-item h5 d-block mb-0">Is this available in my country?</a>
+
+              <div class="collapse" id="collapse-4">
+                <div class="pt-2">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti esse voluptates deleniti, ratione, suscipit quam cumque beatae, enim mollitia voluptatum velit excepturi possimus odio dolore molestiae officiis aspernatur provident praesentium.</p>
                 </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2" class="accordion-item h5 d-block mb-0">Is it free?</a>
+
+              <div class="collapse" id="collapse-2">
+                <div class="pt-2">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti esse voluptates deleniti, ratione, suscipit quam cumque beatae, enim mollitia voluptatum velit excepturi possimus odio dolore molestiae officiis aspernatur provident praesentium.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3" class="accordion-item h5 d-block mb-0">How the system works?</a>
+
+              <div class="collapse" id="collapse-3">
+                <div class="pt-2">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti esse voluptates deleniti, ratione, suscipit quam cumque beatae, enim mollitia voluptatum velit excepturi possimus odio dolore molestiae officiis aspernatur provident praesentium.</p>
+                </div>
+              </div>
+              
+
+
             </div>
         </div>
     </section>
     <!-- **** Blog area End **** -->
 
     <!-- **** Partner Area Start **** -->
-    <div class="partner-area wow fadeInUp" data-wow-delay="200ms">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="partner-logo-slide owl-carousel">
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo wow fadeInUp" data-wow-delay="100ms"><img src="img/core-img/1.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo wow fadeInUp" data-wow-delay="300ms"><img src="img/core-img/2.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo wow fadeInUp" data-wow-delay="500ms"><img src="img/core-img/3.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo wow fadeInUp" data-wow-delay="700ms"><img src="img/core-img/4.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo wow fadeInUp" data-wow-delay="900ms"><img src="img/core-img/5.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!-- **** Partner Area End **** -->
 
     <!-- **** Footer Area Start **** -->
