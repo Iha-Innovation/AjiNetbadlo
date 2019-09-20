@@ -8,7 +8,10 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+.section-padding-100-0 {
+    padding-top: 51px !important;
+    padding-bottom: 0;
+}
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
 	font-family: 'ElegantIcons';
